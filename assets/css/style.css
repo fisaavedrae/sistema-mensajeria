@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+}
+
+.barra-lateral {
+    background-color: white;
+    width: 400px;
+
+    padding-top: 20px;
+}
+
+.nuevo-chat {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+.boton-chat {
+    background-color: #a491d2;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    border-style: none none solid none;
+}
+
+.boton-chat:hover {
+    background-color: #cdc3e6;
+}
+
+.boton-chat:active {
+    background-color: #bec1bb;
+}
+
+.usuario-activo {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-style: none none solid none;
+    border-color: #E8EBE4;
+    padding-bottom: 10px;
+}
+
+.usuario-activo img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border-color: #E8EBE4;
+    border-style: solid;
+}
+
+.item {
+    flex-grow: 6;
+}
+
+.usuario {
+    border-color: #E8EBE4;
+
+    border-style: solid none none none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+}
+
+.img-usuario {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.info-usuario {
+    margin: 0px;
+    padding: 0px;
+}
+
+.usuario img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: #E8EBE4;
+    border-style: solid;
+}
+
+.nombre-usuario {
+    font-size: 1.1rem;
+
+}
+
+.estado-usuario {
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.iconos {
+    color: gray;
+    font-size: 1.6rem;
+    padding-right: 15px;
+}
+
+
+.texto-usuario {
+    font-size: 0.9rem;
+}
+
+.chat {
+    width: 100%;
+    background-color: #E8EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.chat img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.texto {
+    width: 550px;
+}
+
+.texto p {
+    font-size: 1rem;
+}
